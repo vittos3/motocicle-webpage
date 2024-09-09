@@ -17,20 +17,17 @@ body {
   font-style: normal;
 }
 
-
-
 .container__main {
   width: 100vw;
   display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  justify-content: center;
 }
 
 .main {
   display: grid;
   justify-items: center;
-  max-width: 1000px;
-
+  grid-template-columns: 1000px;
+  background-color:#FFFFFF;
 }
 
 .container__img {
@@ -44,6 +41,8 @@ body {
     gap: 20px;
     justify-items: center;
     margin-top: 30px;
+    text-transform: uppercase;
+
 }
 
 .menu__list li:hover {
@@ -52,4 +51,5 @@ body {
  }
 .header { 
     margin-top: 80px;
+    text-align: center;
 }
