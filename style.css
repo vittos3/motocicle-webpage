@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap");
 
+* { 
+    margin: 0; 
+    border: 0; 
+    padding: 0; 
+}
 body {
   background: #f7f7f7;
   font-family: "Nunito", sans-serif;
@@ -12,17 +17,39 @@ body {
   font-style: normal;
 }
 
-.menu__nav a {
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  margin-left: 10px;
+
+
+.container__main {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.main {
+  display: grid;
+  justify-items: center;
+  max-width: 1000px;
+
+}
+
+.container__img {
+  width: 500px;
 }
 
 
-.container__main { 
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr;
+.menu__list { 
+    display: flex;
+    list-style: none;
+    gap: 20px;
     justify-items: center;
+    margin-top: 30px;
+}
+
+.menu__list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+ }
+.header { 
+    margin-top: 80px;
 }
