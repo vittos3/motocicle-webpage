@@ -30,7 +30,7 @@ body {
 }
 
 .container__img {
-  width: 500px;
+  max-width: 500px;
 }
 
 .menu__list {
@@ -76,7 +76,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  background-color: #ee2211;
+  background-color: #FB3903;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -86,4 +86,34 @@ body {
   font-size: 64px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.describe__item { 
+  display: grid;
+  gap: 5px;
+}
+
+.describe__item div { 
+  display: flex;
+  gap: 10px;
+}
+
+.describe__item div p { 
+  align-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.describe__item img { 
+  width: 40px;
+}
+
+
+.p__text { 
+  text-align:center;
+}
+
+.describe__item__container { 
+  display: grid;
+  gap: 20px;
 }
