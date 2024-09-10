@@ -28,7 +28,6 @@ body {
   display: grid;
   justify-items: center;
   grid-template-columns: 1000px;
-
 }
 
 .container__img {
@@ -82,7 +81,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  background-color: #FB3903;
+  background-color: #fb3903;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -94,49 +93,46 @@ body {
   text-align: center;
 }
 
-.describe__item { 
+.describe__item {
   display: grid;
-  gap: 5px;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto auto;
+  align-items: center;
 }
 
-.describe__item div { 
-  display: flex;
-  gap: 10px;
-}
-
-.describe__item div p { 
-  align-content: center;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.describe__item img { 
+.describe__item img {
   width: 40px;
+  grid-column: 1;
+  margin-right: 15px;
 }
 
-
-.p__text { 
-  text-align:center;
-}
-
-.describe__item__container { 
+.describe__item__container {
   display: grid;
-  gap: 20px;
-  padding: 10px; 
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 20px; 
+  gap: 15px; 
 }
 
-.harley__advantages_container { 
+.harley__advantages_container {
   background-color: #f7f7f7;
   height: 100%;
   display: grid;
   align-items: center;
 }
 
-
-.footer { 
+.footer {
   margin-top: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 30px;
   text-align: center;
 }
 
+.p__text_icon,
+.p__text {
+  grid-column: 2;
+}
+
+.p__text__icon {
+  text-transform: uppercase;
+}
