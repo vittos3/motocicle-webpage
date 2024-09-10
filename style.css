@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap");
 
-* { 
-    margin: 0; 
-    border: 0; 
-    padding: 0; 
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
+
 body {
   background: #f7f7f7;
   font-family: "Nunito", sans-serif;
@@ -18,7 +19,6 @@ body {
 }
 
 .container__main {
-  width: 100vw;
   display: grid;
   justify-content: center;
 }
@@ -27,29 +27,63 @@ body {
   display: grid;
   justify-items: center;
   grid-template-columns: 1000px;
-  background-color:#FFFFFF;
 }
 
 .container__img {
   width: 500px;
 }
 
-
-.menu__list { 
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    justify-items: center;
-    margin-top: 30px;
-    text-transform: uppercase;
-
+.menu__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-items: center;
+  margin-top: 30px;
+  text-transform: uppercase;
 }
 
 .menu__list li:hover {
-    text-decoration: underline;
-    cursor: pointer;
- }
-.header { 
-    margin-top: 80px;
-    text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/*Estilos main*/
+
+.main__section {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.text__section__main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+  text-align: end;
+  padding: 20px;
+}
+
+.btn__ver__mais {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #ee2211;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.title__h1__advantages {
+  color: #c6c6c6;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
 }
