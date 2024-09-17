@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap");
+@import url("/styles/menu.css");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.general__container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto auto auto;
+}
+
+.container__main {
+  display: grid;
+  grid-template-columns: 1000px;
+  background-color: #f7f7f7;
+  justify-items: center;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 2.5rem;
+}
