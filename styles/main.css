@@ -1,0 +1,57 @@
+.container-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 3.75rem;
+  background-color: #FFFFFF;
+}
+
+.div__image__motocicle {
+  max-width: 31.25rem;
+  grid-column: 2;
+}
+
+.div__image__motocicle img {
+  max-width: 100%;
+}
+
+.info__content__container a {
+  background-color: #ee2211;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.info__content__container {
+  display: grid;
+  padding: 0px 2.5rem;
+  row-gap: 30px;
+  max-width: 31.25rem;
+  text-align: end;
+  align-content: center;
+  justify-items: end;
+}
+
+.info__content__container h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.info__content__container p {
+  font-size: 1rem;
+}
+
+.info__content__container a {
+  padding: 1rem 1rem;
+}
+
+.info__content__container a:hover {
+  background-color: #9f1105;
+}
