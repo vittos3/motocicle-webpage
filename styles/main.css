@@ -85,16 +85,21 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
+  padding: 10px;
 }
 
 .describe img {
   grid-column: 1;
 }
 
+.describe:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
 .div__text__describe {
   grid-column: 2;
 }
 
-.div__text__describe p { 
+.div__text__describe p {
   margin-top: 5px;
 }
